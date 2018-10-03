@@ -8,6 +8,8 @@ permalink: /portfolio/
 
 [Israel lobby group monitors neo-Nazis online, but watches leftists, too](https://www.unicornriot.ninja/2018/israel-lobby-group-monitors-neo-nazis-online-but-watches-leftists-too/) (Unicorn Riot)
 
+[Berkeley police posted mugshots of activists to create 'counter-narrative' of protests against far-right](https://shadowproof.com/2018/10/03/berkeley-police-posted-mugshots-activists-create-counter-narrative-protests-far-right/) (Shadowproof)
+
 [It Takes a Village: A growing movement is fighting for citizen oversight of police surveillance in their communities](https://store.mcsweeneys.net/products/mcsweeney-s-issue-54-the-end-of-trust) (McSweeney's, preview link)
 
 [How Agrochemical Corporations Suppress Public Records and Prevent Transparency](http://inthesetimes.com/rural-america/entry/21011/freedom-of-information-act-corporate-power-transparency-agrochemicals) (In These Times)
