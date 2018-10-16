@@ -32,7 +32,7 @@ My technical skills include:
 * HTML, CSS, and some JavaScript
 * Proficient in Python, including experience web scraping and basic data analysis
 * Learning data visualization using D3.js and Tableau
-* Limited experience with data analysis using PostgreSQL
+* Limited experience with data analysis using SQL
 * Basic video editing skills using Avid Media Composer and Premiere Pro
 * Digital security tools including Tails, SecureDrop, and PGP encryption. I've also struggled through using Qubes, a Linux distribution that maximizes security by compartmentalizing your digital life, as my main operating system.
 * I know how to use Excel, and by that I mean that I'm comfortable using formulas to store and manipulate data.
