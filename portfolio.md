@@ -3,14 +3,17 @@ layout: page
 title: portfolio
 permalink: /portfolio/
 ---
+[ICE and CBP Seize Billions In Assets Including Human Remains](https://splinternews.com/documents-ice-cbp-seize-billions-in-assets-including-1831181924) (Splinter News/Gizmodo Media)
 
 [License Plate Surveillance Company Attacks Nonprofits For Filing FOIA Requests](https://motherboard.vice.com/en_us/article/3kjp85/vigilant-solutions-eff-muckrock-foia-requests) (Motherboard)
+
+[The year in press freedom: Attacks, arrests, and more](https://www.cjr.org/analysis/us-press-freedom-tracker-2018.php) (Columbia Journalism Review/Freedom of the Press Foundation)
 
 [Israel lobby group monitors neo-Nazis online, but watches leftists, too](https://www.unicornriot.ninja/2018/israel-lobby-group-monitors-neo-nazis-online-but-watches-leftists-too/) (Unicorn Riot)
 
 [Berkeley police posted mugshots of activists to create 'counter-narrative' of protests against far-right](https://shadowproof.com/2018/10/03/berkeley-police-posted-mugshots-activists-create-counter-narrative-protests-far-right/) (Shadowproof)
 
-[It Takes a Village: A growing movement is fighting for citizen oversight of police surveillance in their communities](https://store.mcsweeneys.net/products/mcsweeney-s-issue-54-the-end-of-trust) (McSweeney's, preview link)
+[It Takes a Village: A growing movement is fighting for citizen oversight of police surveillance in their communities](https://www.eff.org/document/end-trust-0) (McSweeney's, see page 219)
 
 [How Agrochemical Corporations Suppress Public Records and Prevent Transparency](http://inthesetimes.com/rural-america/entry/21011/freedom-of-information-act-corporate-power-transparency-agrochemicals) (In These Times)
 

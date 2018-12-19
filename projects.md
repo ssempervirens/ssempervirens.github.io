@@ -9,5 +9,7 @@ The Tracker is a landmark data and news website that aims to document every pres
 ## [OpenOversight](https://openoversight.com)
 A database of law enforcement officers in Chicago, the East Bay, and New York City built using public records and crowdsourced data. I brought the project to the East Bay and to New York City, and contribute code, documentation, obtain rosters through FOIA requests, and assist in populating the database with officers, photographs, and incidents. I spoke with my colleague Jennifer Helsby at OpenOversight at Hackers on Planet Earth (HOPE) in the summer of 2018.
 
+[I spoke to Pacific Standard about my work on OpenOversight.](https://psmag.com/news/new-database-seeks-to-index-police-officers)
+
 ## Mapping surveillance in New York City
 I am identifying and mapping the locations of police surveillance cameras in New York City through public records and collaboration with community groups. Details to come!
