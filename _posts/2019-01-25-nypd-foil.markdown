@@ -3,7 +3,7 @@ layout: post
 title:  "Building a community-sourced roster of NYPD officers"
 date:   2019-01-25 14:36:16 -0400
 categories: jekyll update
-permalink: blog/
+permalink: blog/NYPD-data
 ---
 [OpenOversight](https://openoversight.com) is a Lucy Parsons Labs project that aims to facilitate and improve visibility, transparency, and accountability for law enforcement agencies. It is, essentially, a database that consolidates information on individual police officers including names, birthdates, salaries, dates of employment, incidents and mentions in the news, and photographs of the officers in uniform.
 
