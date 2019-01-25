@@ -1,0 +1,98 @@
+---
+layout: post
+title:  "Building a community-sourced roster of NYPD officers"
+date:   2019-01-25 14:36:16 -0400
+categories: jekyll update
+permalink: blog/
+---
+[OpenOversight](https://openoversight.com) is a Lucy Parsons Labs project that aims to facilitate and improve visibility, transparency, and accountability for law enforcement agencies. It is, essentially, a database that consolidates information on individual police officers including names, birthdates, salaries, dates of employment, incidents and mentions in the news, and photographs of the officers in uniform.
+
+We hope that this will assist journalists reporting on police, public defenders, and community groups.
+
+![alt]({{ site.url }}/assets/images/OOvandyke.png)
+An example of a relatively filled-out officer profile is [Jason Van Dyke (Chicago PD)](https://openoversight.com/officer/22934), with badge number, demographics, and a photograph.
+
+Some of our data comes from public requests—generally, names, badge numbers, demographic information, and disciplinary records when possible. Photographs of officers are crowdsourced, and we ask the public to submit photographs here.
+
+I have been working on bringing OpenOversight to New York City. We've hit some roadblocks obtaining a roster of NYPD officers through public records requests, so I've made a Google spreadsheet through which we can—together—put together a roster and misconduct history of NYPD officers.
+
+**Police officer information through FOIA**
+
+We obtained rosters of sworn officers for the Berkeley (CA), UC Berkeley (CA), Oakland (CA), and Chicago (IL) police departments through public records requests. We entered the information we received through FOIA/CPRA requests to OpenOversight, so that when members of the public submit photographs, or let us know about events and news articles that involve an officer, we're able to associate a name, a photograph, an incident, with badge numbers and precinct/unit information.  
+
+![alt]({{ site.url }}/assets/images/OOoakland.png)
+
+For example, here's just a small piece of what received from Oakland through CPRA. It includes invaluable information, like names, badge numbers, demographics, and dates of hire.
+
+We've been working towards doing the same in New York City—by far the country's largest local law enforcement agency. At approximately 40,000 sworn officers, NYPD is larger than most militaries.
+
+A FOIL (New York State FOIA law) request for a roster was filed in June 2018. In December 2018, [NYPD denied my FOIL request for a roster](https://a860-openrecords.nyc.gov/request/view/FOIL-2018-056-03439).
+
+![alt]({{ site.url }}/assets/images/NYPDfoildenial.png)
+
+[New York City already makes payroll data of city employees publicly available](https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e/data), which includes the names, salaries, and dates of employment for NYPD employees. Of course, shield numbers of NYPD officers are already prominently displayed on uniforms when they go about their public duties and interact with the public. We've appealed the denial of my FOIL request on the grounds that the information we're asking for is clearly a public record, and disclosable under FOIL.
+
+We'll keep fighting to obtain a roster from NYPD. In the meantime, there's no reason not to start collecting information on NYPD officers now.
+
+**Crowdsourcing NYPD officer data**
+
+Using the NYC payroll data that's already available, we wrote a short Python script to pull out only the information we want—the data on the NYPD officers that interact with the public—and then save this as a CSV.
+
+<pre><code>import pandas as pd
+
+
+def filter_string(x):
+    if type(x) != str:
+        x = ""
+    return x
+
+# list of all job titles that likely relate to NYPD officer that interacts with public and has shield number
+police_titles = ["LIEUTENANT", "LIEUTENANT D/A COMMANDER OF DETECTIVE SQUAD", "LIEUTENANT D/A SPECIAL ASSIGNMENT", "POLICE OFFICER", "POLICE OFFICER D/A DETECTIVE 1ST GR", "POLICE OFFICER D/A DETECTIVE 2ND GR", "POLICE OFFICER, SPECIAL ASSIGNMENT", "SERGEANT", "SERGEANT D/A SPECIAL ASSIGNMENT", "SERGEANT D/A SUPERVISOR DETECTIVE SQUAD", "SERGEANT-", "SERGEANT-D/A SUPERVISOR DETECTIVE SQUAD", "SPECIAL OFFICER", "TRAFFIC ENFORC AGENT", "TRAFFIC ENFORC AGENT-L 3 & 4 ONLY", "TRAFFIC ENFORCEMENT AGENT", "TRAFFIC ENFORCEMENT AGENT AL 1 & 2 ONLY' 'WELDER", 'CAPT DET CHIEF OF DEPARTMENT' 'CAPT DET CHIEF OF INTERNAL AFFAIRS',
+ 'CAPT DET CHIEF OF THE HOUSING BUREAU',
+ 'CAPT DET CHIEF OF THE TRANSIT BUREAU' 'CAPTAIN',
+ 'CAPTAIN CHIEF OF COUNTERTERRORISM' 'CAPTAIN D/A DEPUTY CHIEF INSPECTOR',
+ 'CAPTAIN D/A DEPUTY INSPECTOR' 'CAPTAIN D/A INSPECTOR',
+ 'CAPTAIN DETAILED AS ASSISTANT CHIEF INSPECTOR',
+ 'CAPTAIN DETAILED AS CHIEF OF CRIME CONTROL STRATEGIES',
+ 'CAPTAIN DETAILED AS CHIEF OF DETECTIVES',
+ 'CAPTAIN DETAILED AS CHIEF OF ORGANIZED CRIME CONTROL',
+ 'CAPTAIN DETAILED AS CHIEF OF PATROL',
+ 'CAPTAIN DETAILED AS CHIEF OF PERSONNEL',
+ 'CAPTAIN DETAILED AS CHIEF OF SPECIAL OPERATIONS',
+ 'CAPTAIN DETAILED AS CHIEF OF STRATEGIC INITIATIVES',
+ 'CAPTAIN DETAILED AS CHIEF OF TRAINING',
+ 'CAPTAIN-CHIEF OF COMMUNITY AFFAIRS' 'CAPTAIN-CHIEF OF INTELLIGENCE',
+ 'CAPTAIN-CHIEF OF STAFF' 'CAPTAIN-MANAGERIAL DETAILS',
+ 'CAPTAIN: CHIEF OF TRANSPORTATION BUREAU']
+
+data = ""  # file path
+df = pd.read_csv(data)
+df_police = df[(df["Agency Name"] == "POLICE DEPARTMENT") & (df["Title Description"].isin(police_titles)) & (df["Fiscal Year"] == 2018)]
+df["Title Description"] = df["Title Description"].apply(filter_string)
+
+df[df["Title Description"].isin(police_titles)].to_csv("")  # file path
+</code></pre>
+
+I uploaded this CSV to google spreadsheets. Each officer has been assigned a unique ID number in column A.
+
+![alt]({{ site.url }}/assets/images/NYPDgoogledoc.png)
+
+To the far right are empty columns, for which we don't have officer information, like shield numbers.
+
+![alt]({{ site.url }}/assets/images/NYPDgoogledocs2.png)
+
+And at the bottom, you can switch to the "incidents" spreadsheet.
+
+![alt]({{ site.url }}/assets/images/NYPDgdocsincidents.png)
+
+**You can help**
+
+We'd love your help filling in this information, whether you're a local community group or an individual volunteer with some time on your hands. Regardless of whether we easily obtain a roster, like with Berkeley PD, or not, the hard work of populating in the officer profiles with information has been done by volunteers and Lucy Parsons Labs. We're making a link to the Google spreadsheet public, so that anyone can easily help add shield numbers you know, or add instances involving NYPD officers.
+
+**[Visit and contribute to the Google spreadsheet here](https://docs.google.com/spreadsheets/d/1gWdFKuP1jhXQc2gHyeegs8K9riOwAakkHHDUYbDeKhw/edit?usp=sharing).**
+
+Once we have an official roster, we'll able to match the information here with the roster, and we'll add it all to OpenOversight.
+
+You can also help by submitting photographs of NYPD officers in uniform by visiting [OpenOversight's image submission page](https://openoversight.com/submit), and by selecting NYPD from the dropdown.
+
+As always, if you have a roster of NYPD you'd like to share with us securely, you can submit that and any other documents through the [Lucy Parsons Labs SecureDrop](https://lucyparsonslabs.com/securedrop/).
