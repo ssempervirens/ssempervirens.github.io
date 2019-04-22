@@ -19,13 +19,27 @@ permalink: /portfolio/
 
 [How Agrochemical Corporations Suppress Public Records and Prevent Transparency](http://inthesetimes.com/rural-america/entry/21011/freedom-of-information-act-corporate-power-transparency-agrochemicals) (In These Times)
 
+[Why is Chelsea Manning still in jail?](https://freedom.press/news/why-chelsea-manning-still-jail/) (Freedom of the Press Foundation)
+
 [One year on, the push for change since the murder of Malta's most famous investigative journalist](https://freedom.press/news/one-year-push-change-murder-maltas-most-famous-investigative-journalist/) (Freedom of the Press Foundation)
 
 [Why is ICE interfering with journalists covering immigration hearings?](https://freedom.press/news/why-ice-interfering-journalists-covering-immigration-hearings/) (Freedom of the Press Foundation)
 
+[The US government is increasingly targeting journalists at the US-Mexico border](https://freedom.press/news/us-government-increasingly-targeting-journalists-us-mexico-border/) (Freedom of the Press Foundation)
+
+[In a brewing First Amendment fight, California’s Attorney General threatens journalists for possessing a public records document](https://freedom.press/news/brewing-first-amendment-fight-californias-attorney-general-threatens-journalists-possessing-public-records-document/) (Freedom of the Press Foundation)
+
 [Prisons are censoring publications that challenge state power](https://freedom.press/news/prisons-are-censoring-publications-challenge-state-power/) (Freedom of the Press Foundation)
 
+[The Freedom of Information Act is getting worse under the Trump administration](https://freedom.press/news/freedom-information-act-getting-worse-under-trump-administration/) (Freedom of the Press Foundation)
+
+[How Trump’s government shutdown ground transparency to a halt](https://freedom.press/news/how-trumps-government-shutdown-ground-transparency-halt/) (Freedom of the Press Foundation)
+
 [Former Trump adviser Sebastian Gorka insults, threatens, and attacks journalists](https://freedom.press/news/former-trump-adviser-sebastian-gorka-insults-threatens-and-attacks-journalists/) (Freedom of the Press Foundation)
+
+[Canadian police block journalists from covering pipeline protest in British Columbia](https://freedom.press/news/canadian-police-block-journalists-covering-pipeline-protest-british-columbia/) (Freedom of the Press Foundation)
+
+[An important free speech statute that protects journalists in Texas is in danger](https://freedom.press/news/important-free-speech-statute-protects-journalists-texas-danger/) (Freedom of the Press Foundation)
 
 [Journalist Jamie Kalven subpoenaed to testify in Laquan McDonald murder case](https://pressfreedomtracker.us/all-incidents/journalist-jamie-kalven-subpoenaed-testify-laquan-mcdonald-murder-case/) (U.S. Press Freedom Tracker)
 
@@ -33,11 +47,4 @@ permalink: /portfolio/
 
 [Why publishing LinkedIn data on ICE employees is in the public interest](https://lucyparsonslabs.com/posts/ice-public-interest/) (Lucy Parsons Labs blog)
 
-My technical skills include:
-* HTML, CSS, and some JavaScript
-* Proficient in Python, including experience web scraping and basic data analysis
-* Learning data visualization using D3.js and Tableau
-* Limited experience with data analysis using SQL
-* Basic video editing skills using Avid Media Composer and Premiere Pro
-* Digital security tools including Tails, SecureDrop, and PGP encryption. I've also struggled through using Qubes, a Linux distribution that maximizes security by compartmentalizing your digital life, as my main operating system.
-* I know how to use Excel, and by that I mean that I'm comfortable using formulas to store and manipulate data.
+[Exclusion Of Climate Change From Presidential Debates Is Irresponsible And Dangerous](https://www.huffpost.com/entry/exclusion-of-climate-change-from-presidential-debates_b_5808e2fde4b08ddf9ece15c9?section=us_green) (HuffPost)
