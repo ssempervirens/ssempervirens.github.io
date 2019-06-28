@@ -8,6 +8,4 @@ Hi, I’m Camille Fassett. I write things: both code (mostly data stuff in pytho
 
 I’m interested in privacy, data science and machine learning, FOIA, mapping, ethics, and robotics. I care about technology — not as means towards some vague and apolitical idea of "progress" — but rather towards our collective liberation and freedom.
 
-[Resume/CV](https://github.com/camfassett/resume-cv/)
-
 ***There’s no need to fear or hope, but only to look for new weapons. — Gilles Deleuze***
