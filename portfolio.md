@@ -1,8 +1,10 @@
 ---
 layout: page
-title: portfolio
+title: journalism & research
 permalink: /portfolio/
 ---
+***Even when the truth isn’t hopeful, the telling of it is. - Andrea Gibson***
+
 [ICE and CBP Seize Billions In Assets Including Human Remains](https://splinternews.com/documents-ice-cbp-seize-billions-in-assets-including-1831181924) (Splinter News/Gizmodo Media)
 
 [Inside UC Berkeley's Contract with Amazon](https://www.eastbayexpress.com/oakland/amazon-works-hard-to-keep-secrets/Content?oid=24770611) (East Bay Express)

@@ -4,22 +4,10 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-*Hi, I'm Camille Fassett.*
+Hi, I’m Camille Fassett. I write things: both code (mostly data stuff in python, r, javascript) and research/journalism (mostly re: tech, surveillance, and policing).
 
-Journalist, researcher, and programmer interested in policing, civil liberties, data science, digital security, and public records.
+I’m interested in privacy, data science and machine learning, FOIA, mapping, ethics, and robotics. I care about technology — not as means towards some vague and apolitical idea of "progress" — but rather towards our collective liberation and freedom.
 
-As a [reporter at Freedom of the Press Foundation](https://freedom.press/people/camille-fassett/) I co-run the U.S. Press Freedom Tracker, documenting attacks on the press in the United States, and cover issues including government surveillance, leak prosecutions, and press freedom.
+[Resume/CV](https://github.com/camfassett/resume-cv/)
 
-I am a member of [security and data collective Lucy Parsons Labs](https://lucyparsonslabs.com/about/contributors/), where I investigate policing and surveillance technology through public records requests. I am implementing a database of police officers that combines crowdsourced and FOIA data to increase police transparency, and to assist journalists covering law enforcement. [OpenOversight](https://openoversight.com) currently features police officers in Chicago, New York City, and the East Bay of the San Francisco Bay Area.
-
-I'm based in New York City. Please [get in touch](/contact) with tips or ideas for collaboration!
-
-Languages and frameworks:
-* HTML, CSS/SASS
-* JavaScript
-* Python (incl. data analysis and web scraping experience), Jupyter/Conda
-* MySQL
-* Learning: D3.js, P5.js, Django, React, R
-* Limited experience with data analysis using SQL
-* Basic video editing (Avid Media Composer and Premiere Pro)
-* Digital security tools incl. Tails, SecureDrop, PGP, Qubes OS
+***There’s no need to fear or hope, but only to look for new weapons. — Gilles Deleuze***
