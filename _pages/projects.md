@@ -1,8 +1,9 @@
 ---
-layout: page
-title: technical & projects
-permalink: /projects
+title: Technical & Projects
+weight: 3
+filename: projects.md
 ---
+
 ***A mirror mirroring a mirror — Douglas R. Hofstadter***
 
 ## [The U.S. Press Freedom Tracker](https://pressfreedomtracker.us)
