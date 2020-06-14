@@ -37,7 +37,7 @@ collections:
   pages:
     output: true
 include:
-- _pagess
+- _pages
 nav:
 - name: code
   href: https://github.com/ssempervirens
