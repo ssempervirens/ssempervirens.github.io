@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-weight: 3
 filename: contact.md
 ---
 ***Let's be dangerous together.***

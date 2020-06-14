@@ -1,6 +1,5 @@
 ---
 title: Journalism & Research
-weight: 2
 filename: portfolio.md
 ---
 ***Even when the truth isn’t hopeful, the telling of it is. - Andrea Gibson***

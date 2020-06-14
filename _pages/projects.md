@@ -1,6 +1,5 @@
 ---
 title: Technical & Projects
-weight: 3
 filename: projects.md
 ---
 

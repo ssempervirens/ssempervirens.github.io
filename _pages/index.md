@@ -2,7 +2,6 @@
 layout: home
 title: "Home"
 permalink: /
-weight: 1
 filename: index.md
 ---
 
