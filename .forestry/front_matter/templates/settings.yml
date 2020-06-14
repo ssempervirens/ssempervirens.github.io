@@ -35,7 +35,7 @@ fields:
     label: titles
   - type: field_group_list
     name: social
-    label: social
+    label: social profiles
     fields:
     - type: text
       name: name
