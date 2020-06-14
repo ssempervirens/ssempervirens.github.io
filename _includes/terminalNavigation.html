@@ -1,0 +1,17 @@
+<p class="cli">
+  <span class = "prompt host">{{ site.title }}</span>
+  <span class = "prompt path">~{{ page.pwd | prepend: "/" }}</span>
+  {%- if include.type == "blink" %}
+  <span class = "blinking-cursor">_</span>
+  {% else %}
+    {%- if include.type == "finalCommand" %}
+      {%- if.page.kind == "file" %}
+        cat {% if page.filename %}{{ page.filename }}{% else %}{{ page.slug }}.md{% endif %}
+      {%- else %}
+        ls
+      {%- endif %}
+    {%- else %}
+      ls
+    {%- endif %}
+  {%- endif %}
+</p>
