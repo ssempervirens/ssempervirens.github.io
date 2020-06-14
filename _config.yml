@@ -45,9 +45,6 @@ nav:
 - name: keys
   href: "https://keybase.io/camfassett"
   kind: dir
-- name: etc
-  href: "/etc"
-  kind: dir
 - name: résumé.pdf
   href: "/resume.pdf"
   kind: file
