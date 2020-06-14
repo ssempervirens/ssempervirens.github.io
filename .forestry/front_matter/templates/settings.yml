@@ -112,3 +112,5 @@ fields:
     - type: text
       name: kind
       label: kind
+pages:
+- _config.yml

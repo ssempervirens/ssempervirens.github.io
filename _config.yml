@@ -1,80 +1,67 @@
-# Welcome to Jekyll!
-title: "camille fassett"
-email: "camillefassett [at] gmail [dot] com"
-description: "journalist · researcher · technologist"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-# author details
+---
+title: camille fassett
+email: camillefassett [at] gmail [dot] com
+description: journalist · researcher · technologist
+baseurl: ''
+url: ''
 author:
-  name:  "camille fassett"
-  photo: /assets/images/camille.jpg # personal profile pic
-  avatar: /assets/images/camille-memoji.png # personal memoji. Optional
-  titles: ["Researcher", "Journalist", "Developer", "Data Reporter"]
+  name: camille fassett
+  photo: "/assets/images/camille.jpg"
+  avatar: "/assets/images/camille-memoji.png"
+  titles:
+  - Researcher
+  - Journalist
+  - Developer
+  - Data Reporter
   social:
-    - name: linkedin
-      link: "https://www.linkedin.com/in/camillefassett/"
-    - name: pinterest
-      link: "https://www.pinterest.com/camillefassett/"
-    - name: twitter
-      link: "https://twitter.com/camfassett"
-    - name: instagram
-      link: "https://www.instagram.com/camilleplusvanille/"
-    - name: github
-      link: "https://github.com/ssempervirens"
-    - name: medium
-      link: "https://medium.com/@camillefassett"
-
+  - name: linkedin
+    link: https://www.linkedin.com/in/camillefassett/
+  - name: pinterest
+    link: https://www.pinterest.com/camillefassett/
+  - name: twitter
+    link: https://twitter.com/camfassett
+  - name: instagram
+    link: https://www.instagram.com/camilleplusvanille/
+  - name: github
+    link: https://github.com/ssempervirens
+  - name: medium
+    link: https://medium.com/@camillefassett
 twitter_username: camfassett
-github_username:  ssempervirens
-
-# Build settings
+github_username: ssempervirens
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-
-# include pages directory
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-seo-tag
 collections:
   pages:
     output: true
-    
-include: 
-  - _pagess
-
-# Additional navigation items
-# This would include links to external pages e.g linkedin, keybase, github e.tc
-# or links to specific files on the site e.g resume.pdf
+include:
+- _pagess
 nav:
-  - name:           "code"
-    href:           "https://github.com/ssempervirens"
-    kind:           "dir"
-  - name:           "etc"
-    href:           "/etc"
-    kind:           "dir"
-  - name:           "résumé.pdf"
-    href:           "/resume.pdf"
-    kind:           "file"
-
-# set defaults. can be overridden from a page 
+- name: code
+  href: https://github.com/ssempervirens
+  kind: dir
+- name: etc
+  href: "/etc"
+  kind: dir
+- name: résumé.pdf
+  href: "/resume.pdf"
+  kind: file
 defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "post"
-      permalink: /:title/
-      pwd: _posts # you could use "blog" instead
-      kind: file
-  -
-    scope:
-      path: "_pages"
-      type: "pages"
-    values:
-      layout: "page"
-      permalink: /:title/
-      pwd: _pages # you could use "pages" instead
-      kind: file
-  
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    permalink: "/:title/"
+    pwd: _posts
+    kind: file
+- scope:
+    path: _pages
+    type: pages
+  values:
+    layout: page
+    permalink: "/:title/"
+    pwd: _pages
+    kind: file
