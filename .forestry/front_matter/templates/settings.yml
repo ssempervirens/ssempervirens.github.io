@@ -71,7 +71,7 @@ fields:
   label: include
 - type: field_group_list
   name: nav
-  label: nav
+  label: nav menu items
   fields:
   - type: text
     name: name
