@@ -40,7 +40,10 @@ include:
 - _pages
 nav:
 - name: code
-  href: https://github.com/ssempervirens
+  href: "https://github.com/ssempervirens"
+  kind: dir
+- name: keys
+  href: "https://keybase.io/camfassett"
   kind: dir
 - name: etc
   href: "/etc"
