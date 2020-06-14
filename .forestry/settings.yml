@@ -6,11 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: BLOG
-- type: heading
-  label: PAGES
 - type: jekyll-posts
   label: Posts
   create: all
+- type: heading
+  label: PAGES
 - type: directory
   path: _pages
   label: Pages
