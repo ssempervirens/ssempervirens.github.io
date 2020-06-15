@@ -27,9 +27,6 @@ fields:
   - type: file
     name: photo
     label: photo
-  - type: file
-    name: avatar
-    label: avatar
   - type: list
     name: titles
     label: titles
