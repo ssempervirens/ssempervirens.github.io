@@ -236,7 +236,12 @@ justify-content: center;
   &_round {
     border-radius: 50%;
   }
-  &_author {
+}
+
+.author {
+  text-align: center;
+  &_image {
+    display: block;
     width: 10rem !important;
     height: 10rem !important;
     margin: 1.5rem auto;
