@@ -8,7 +8,7 @@
     {%- assign my_page = site.pages | where: "path", path | first -%}
     {%- if my_page.title and my_page.name != "notfound" -%}
     <span>
-      <a class="term-nav dir" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+      <a class="term-nav dir" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape | downcase }}</a>
     </span>
     {%- endif -%}
     {%- endfor -%}
