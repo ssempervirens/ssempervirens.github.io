@@ -11,7 +11,6 @@ $very-dark-gray: #1d1f21;
 $cyan: #8abeb7;
 $blue: #81a2be;
 $purple: #B48EAD;
-$green: limegreen; // #acc697;
 $red: #cc6666;
 $orange: #de935f;
 $light-orange: #EBCB8B;
@@ -127,7 +126,7 @@ a {
 .input {
   position: relative;
   color: $green;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .blinking-cursor {
