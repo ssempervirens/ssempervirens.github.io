@@ -7,7 +7,7 @@ $brand-color-dark:      darken($brand-color, 35%) !default;
 $site-title-color:      $brand-color-light !default;
 
 $text-color:            #bbbbbb !default;
-$background-color:      #181818 !default;
+$background-color:      rgb(10,18,29) !default;
 $code-background-color: #212121 !default;
 
 $link-base-color:       #79b8ff !default;
@@ -25,12 +25,7 @@ $table-header-border:   lighten($background-color, 21%) !default;
 $table-border-color:    $border-color-01 !default;
 
 
-// Syntax highlighting styles should be adjusted appropriately for every "skin"
-// List of tokens: https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
-// Some colors come from Material Theme Darker:
-// https://github.com/material-theme/vsc-material-theme/blob/master/scripts/generator/settings/specific/darker-hc.ts
 // https://github.com/material-theme/vsc-material-theme/blob/master/scripts/generator/color-set.ts
-// ----------------------------------------------------------------------------
 
 .highlight {
   .c     { color: #545454; font-style: italic } // Comment

@@ -196,6 +196,9 @@ pre {
   }
 }
 
+.highlight, code, pre {
+  max-width: 80vw;
+}
 .highlight {
   border-radius: 3px;
   background: $code-background-color;

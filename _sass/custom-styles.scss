@@ -1,6 +1,7 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 $font2: 'Source Code Pro', monospace;
+$link-color: #ef7f1a;
 
 
 $very-light-gray: #c5c8c6;
@@ -12,135 +13,147 @@ $very-dark-gray: #1d1f21;
 $cyan: #8abeb7;
 $blue: #81a2be;
 $purple: #B48EAD;
-$green: #acc697;
+$green: limegreen; // #acc697;
 $red: #cc6666;
 $orange: #de935f;
 $light-orange: #EBCB8B;
+$haze: rgba(255,255,255,0.02);
+
+a {
+  &, &:visited, &:hover {
+    color: $link-color;
+    transition: opacity 0.3s ease-out;
+  }
+  &:hover {
+    opacity: 0.5;
+  }
+}
 
 .term {
-    color: black;
-    font-family: $font2;
-
-    table {
-        white-space: nowrap;
-        border: none;
-        padding: 0;
-        margin: 0;
-        background: #FFFFFF;
+  font-family: $font2;
+  
+  table {
+    white-space: nowrap;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: $haze;
+  }
+  
+  td {
+    padding: 0;
+    padding-right: 1ch;
+    
+    &.size {
+      padding-left: 2ch;
+      text-align: right;
     }
-
-    td {
-        padding: 0;
-        padding-right: 1ch;
-
-        &.size {
-            padding-left: 2ch;
-            text-align: right;
-        }
+  }
+  
+  tr {
+    white-space: nowrap;
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  
+  // grid for stuff like fake "ls" commands
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.75rem;
+    @media screen and (min-width: 667px) {
+      grid-template-columns: repeat(4, 1fr);
     }
-
-    tr {
-        white-space: nowrap;
-        border: none;
-        background: #FFFFFF;
-    }
-
-
-    // grid for stuff like fake "ls" commands
-    &-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        @media screen and (min-width: 667px) {
-          grid-template-columns: repeat(4, 1fr);
-        }
-        // grid-gap: 2rem;
-        // padding-left: 1rem;
-    }
-
-    // grid for stuff like fake "ls" commands
-    &-grid-single {
-        display: grid;
-        // grid-gap: 2rem;
-        // padding-left: 1rem;
-    }
-
-    a {
-        color: $gray;
-    }
+    // grid-gap: 2rem;
+    // padding-left: 1rem;
+  }
+  &-cli {
+    margin-bottom: 0;
+  }
+  
+  // grid for stuff like fake "ls" commands
+  &-grid-single {
+    display: grid;
+    // grid-gap: 2rem;
+    // padding-left: 1rem;
+  }
 }
 
 a {
-    font-family: $font2;
-
-    // fake "directories" - printed with a slash after
-    &.dir {
-        color: $blue;
-
-        &:after {
-            content: "/";
-            color: $gray;
-            border-bottom: none;
-
-            &:hover {
-                border-bottom: none;
-            }
-        }
+  font-family: $font2;
+  
+  // fake "directories" - printed with a slash after
+  &.dir {
+    &:after {
+      content: "/";
+      color: #fff;
+      border-bottom: none;
+      
+      &:hover {
+        border-bottom: none;
+      }
     }
-
-    // fake "files"
-    &.file {
-        color: $green;
-    }
-
+  }
+  
+  // fake "files"
+  &.file {
+    color: $green;
+  }
+  
 }
 
-// ul .term {
-//     list-style-type: none;
-//     padding: 4rem;
-//     margin: none;
-// }
-
 .prompt {
-    &.host {
-        &:after {
-            color: $light-gray;
-            content: " :: ";
-        }
+  display: inline-block;
+  background: $haze;
+  padding: 0.5rem 1rem;
+  & + & {
+    margin-left: -0.6rem;
+    padding-left: 0;
+  }
+  &.host {
+    &:after {
+      color: $green;
+      content: " :: ";
     }
+  }
+  
+  &.path {
+    position: relative;
+    &::after {
+      color: $green;
+      content: " $ ";
+    }
+  }
+}
 
-    &.path {
-        &:after {
-            color: $light-gray;
-            content: " $ ";
-        }
-    }
+.input {
+  position: relative;
+  color: $green;
+  opacity: 0.5;
 }
 
 .blinking-cursor {
-    color: black;
-    -webkit-animation: 1s blink step-end infinite;
-    -moz-animation: 1s blink step-end infinite;
-    -ms-animation: 1s blink step-end infinite;
-    -o-animation: 1s blink step-end infinite;
-    animation: 1s blink step-end infinite;
+  color: #fff;
+  animation: 1s blink step-end infinite;
 }
 
 @keyframes blink {
-
-    0% {
-        color: transparent;
-    }
-
-    50% {
-        color: black;
-    }
+  
+  0% {
+    color: transparent;
+  }
+  
+  50% {
+    color: #fff;
+  }
 }
 
 .flex {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .home {
@@ -209,7 +222,7 @@ justify-content: center;
     padding: 30px;
   }
   &_sidebar {
-    background-color: #f0f0f0;
+    background: $haze;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,11 +261,27 @@ justify-content: center;
   }
 }
 
-.cli {
-  padding: 0.5rem 0;
-  margin-bottom: 0;
+.fa-2x {
+  width: 18px !important;
 }
 
-.fa-2x {
-  width: 24px !important;
+.typewrite {
+  span {
+    border-right: 1px solid #fff !important;
+  }
+}
+
+.fixed .icon{
+  background: #fff;
+  width: 32px;
+  height: 32px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 3px;
+}
+
+.post {
+  &-link {
+    color: #fff !important;
+  }
 }
