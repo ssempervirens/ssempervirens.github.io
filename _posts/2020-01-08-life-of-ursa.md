@@ -1,8 +1,7 @@
 ---
-layout: post
 title:  "The life of a kitten"
 date:   2020-01-08 14:36:16 -0400
-categories: jekyll update
+categories: ["jekyll", "update"]
 permalink: blog/ursa-kitten-life
 ---
 Last month, we almost lost one of our little kittens, Ursa. She, like most loved cats, is a creature of many names — namely, The Ursanator, Ursanator-Potater, Klepto, Baby Cat, Peanut Butter, and Monster — and it's hard to articulate how much I love this little cat. December was a deeply painful month, and Ursa's health scare led me down a road of thinking about animal companionship, responsibility for a life, and what it means to love a cat.

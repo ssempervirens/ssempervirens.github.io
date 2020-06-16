@@ -1,0 +1,113 @@
+---
+label: Settings
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: email
+  label: email
+- type: text
+  name: description
+  label: description
+- type: text
+  name: baseurl
+  label: baseurl
+- type: text
+  name: url
+  label: url
+- type: field_group
+  name: author
+  label: author
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: photo
+    label: photo
+  - type: list
+    name: titles
+    label: titles
+  - type: field_group_list
+    name: social
+    label: social profiles
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: link
+      label: link
+- type: text
+  name: twitter_username
+  label: twitter_username
+- type: text
+  name: github_username
+  label: github_username
+- type: text
+  name: markdown
+  label: markdown
+- type: list
+  name: plugins
+  label: plugins
+- type: field_group
+  name: collections
+  label: collections
+  fields:
+  - type: field_group
+    name: pages
+    label: pages
+    fields:
+    - type: boolean
+      name: output
+      label: output
+- type: list
+  name: include
+  label: include
+- type: field_group_list
+  name: nav
+  label: nav menu items
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: href
+    label: href
+  - type: text
+    name: kind
+    label: kind
+- type: field_group_list
+  name: defaults
+  label: defaults
+  fields:
+  - type: field_group
+    name: scope
+    label: scope
+    fields:
+    - type: text
+      name: path
+      label: path
+    - type: text
+      name: type
+      label: type
+  - type: field_group
+    name: values
+    label: values
+    fields:
+    - type: text
+      name: layout
+      label: layout
+    - type: text
+      name: permalink
+      label: permalink
+    - type: text
+      name: pwd
+      label: pwd
+    - type: text
+      name: kind
+      label: kind
+pages:
+- _config.yml

@@ -1,0 +1,19 @@
+{%- assign author = site.author %}
+<div class="col-sm-3 left author">
+  <div class="fixed">
+  <img class="image_round author_image circular" src="{{ author.photo }}"/>
+  <h2>{{ author.name }}</h2>
+  <h3>
+    <span class="typewrite" data-period="2000" data-type='{{ author.titles | jsonify }}'>
+      <span class="wrap"></span>
+    </span>
+  </h3>
+  <div class="icons">
+    {% for item in author.social %}
+      <a href="{{ .item.link }}" target="_blank" class="icon">
+          <i class="fab fa-2x fa-{{ item.name }} socialmediaicon {{ item.name }}"></i>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+</div>

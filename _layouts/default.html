@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body class="page-content wrapper">
+    <aside class="content_sidebar">
+      {%- include sidebar.html -%}
+    </aside>
+    <main aria-label="Content" class="content">
+      {%- include header.html -%}
+      <div>
+        {{ content }}
+      </div>
+      <footer class="term">
+        <br>
+        {%- include terminalNavigation.html type="blink" %}
+        <br>
+      </footer>
+      {% if page.layout == 'blog' or page.layout == 'post' %}
+       {%- include footer.html -%}
+      {% endif %}
+    </main>
+    {%- include scripts.html %}
+  </body>
+</html>

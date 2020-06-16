@@ -1,7 +1,7 @@
 ---
 layout: page
-title: contact
-permalink: /contact/
+title: Contact
+filename: contact.md
 ---
 ***Let's be dangerous together.***
 

@@ -1,0 +1,283 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+
+$very-light-gray: #c5c8c6;
+$light-gray: #65737E;
+$gray: black;
+$dark-gray: #282a2e;
+$very-dark-gray: #1d1f21;
+
+$cyan: #8abeb7;
+$blue: #81a2be;
+$purple: #B48EAD;
+$red: #cc6666;
+$orange: #de935f;
+$light-orange: #EBCB8B;
+
+a {
+  &, &:visited, &:hover {
+    color: $link-color;
+    transition: opacity 0.3s ease-out;
+  }
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.term {
+  font-family: $font2;
+  
+  table {
+    white-space: nowrap;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: $haze;
+  }
+  
+  td {
+    padding: 0;
+    padding-right: 1ch;
+    
+    &.size {
+      padding-left: 2ch;
+      text-align: right;
+    }
+  }
+  
+  tr {
+    white-space: nowrap;
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  
+  // grid for stuff like fake "ls" commands
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.75rem;
+    @media screen and (min-width: 667px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    // grid-gap: 2rem;
+    // padding-left: 1rem;
+  }
+  &-cli {
+    margin-bottom: 0;
+  }
+  
+  // grid for stuff like fake "ls" commands
+  &-grid-single {
+    display: grid;
+    // grid-gap: 2rem;
+    // padding-left: 1rem;
+  }
+}
+
+a {
+  font-family: $font2;
+  
+  // fake "directories" - printed with a slash after
+  &.dir {
+    &:after {
+      content: "/";
+      color: #fff;
+      border-bottom: none;
+      
+      &:hover {
+        border-bottom: none;
+      }
+    }
+  }
+  
+  // fake "files"
+  &.file {
+    color: $green;
+  }
+  
+}
+
+.prompt {
+  display: inline-block;
+  background: $haze;
+  padding: 0.5rem 1rem;
+  & + & {
+    margin-left: -0.6rem;
+    padding-left: 0;
+  }
+  &.host {
+    &:after {
+      color: $green;
+      content: " :: ";
+    }
+  }
+  
+  &.path {
+    position: relative;
+    &::after {
+      color: $green;
+      content: " $ ";
+    }
+  }
+}
+
+.input {
+  position: relative;
+  color: $green;
+  opacity: 0.8;
+}
+
+.blinking-cursor {
+  color: #fff;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  
+  0% {
+    color: transparent;
+  }
+  
+  50% {
+    color: #fff;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    // text-transform: uppercase;
+    &::before {
+      padding-right: 0.5rem;
+      opacity: 0.5;
+    }
+  }
+  $content: "";
+  @for $i from 1 through 3 {
+    $content: $content + "#";
+    h#{$i} {
+      &::before {
+        content: $content;
+      }
+    }
+  }
+  
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+.instagram {
+  color: #cd486b;
+}
+
+.linkedin {
+  color: #0077B5;
+}
+
+.github {
+  color: #333333;
+}
+
+.medium {
+  color: #333333;
+}
+
+.email {
+  color: #909497;
+}
+
+.pinterest {
+  color: #c8232c;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 3rem;
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+.content {
+  &, &_sidebar {
+    padding: 30px;
+  }
+  &_sidebar {
+    background: $haze;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      bottom: 0;
+      height: 100vh;
+      padding-bottom: 150px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    > div {
+      flex: 1;
+    }
+  }
+}
+
+.image {
+  &_round {
+    border-radius: 50%;
+  }
+}
+
+.author {
+  text-align: center;
+  &_image {
+    display: block;
+    width: 10rem !important;
+    height: 10rem !important;
+    margin: 1.5rem auto;
+  }
+}
+
+.fa-2x {
+  width: 18px !important;
+}
+
+.typewrite {
+  span {
+    border-right: 1px solid #fff !important;
+  }
+}
+
+.fixed .icon{
+  background: #fff;
+  width: 32px;
+  height: 32px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 3px;
+}
+
+.post {
+  &-link {
+    color: #fff !important;
+  }
+}
