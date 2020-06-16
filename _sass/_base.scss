@@ -1,3 +1,8 @@
+$haze: rgba(255,255,255,0.02);
+$font2: 'Source Code Pro', monospace;
+$link-color: #ef7f1a;
+$xhaze: rgba($link-color,0.5);
+
 * {
   box-sizing: border-box;
 }
@@ -176,13 +181,13 @@ code {
   max-width: 100%;
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $border-color-01;
   border-radius: 3px;
-  background-color: $code-background-color;
+  background-color: $xhaze;
 }
 
 code {
-  padding: 1px 5px;
+  padding: 5px;
+  display: inline-block;
 }
 
 pre {
@@ -190,9 +195,11 @@ pre {
   overflow-x: auto;
 
   > code {
+    display: block;
     border: 0;
     padding-right: 0;
     padding-left: 0;
+    background: transparent;
   }
 }
 
@@ -201,11 +208,11 @@ pre {
 }
 .highlight {
   border-radius: 3px;
-  background: $code-background-color;
+  // background: $code-background-color;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: $code-background-color;
+    // background: $code-background-color;
   }
 }
 
