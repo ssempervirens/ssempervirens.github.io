@@ -15,16 +15,10 @@ author:
   social:
   - name: linkedin
     link: https://www.linkedin.com/in/camillefassett/
-  - name: pinterest
-    link: https://www.pinterest.com/camillefassett/
   - name: twitter
     link: https://twitter.com/camfassett
-  - name: instagram
-    link: https://www.instagram.com/camilleplusvanille/
   - name: github
     link: https://github.com/ssempervirens
-  - name: medium
-    link: https://medium.com/@camillefassett
 twitter_username: camfassett
 github_username: ssempervirens
 markdown: kramdown
@@ -40,9 +34,6 @@ include:
 nav:
 - name: code
   href: "https://github.com/ssempervirens"
-  kind: dir
-- name: keys
-  href: "https://keybase.io/camfassett"
   kind: dir
 - name: résumé.pdf
   href: "/resume.pdf"
