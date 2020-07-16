@@ -5,7 +5,7 @@ filename: contact.md
 ---
 ***Let's be dangerous together.***
 
-email: camillefassett [at] gmail [dot] com
+email: cfassett [at] ap [dot] org (personal email upon request)
 
 twitter (open DMs): [@camfassett](https://twitter.com/camfassett/)
 
