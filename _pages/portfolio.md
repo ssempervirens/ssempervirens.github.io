@@ -4,6 +4,12 @@ filename: portfolio.md
 ---
 ***Even when the truth isn’t hopeful, the telling of it is. - Andrea Gibson***
 
+[Neighbors with hoses target fires as crews urge them to stop](https://apnews.com/1eb072d62d0de1d8e5a0949d5d8efbbc) (The Associated Press)
+
+[California wildfires some of largest in state history](https://apnews.com/f2b421d9c899fec0c07a35060f4b00ff) (The Associated Press, contributor)
+
+[Politics slows flow of US virus funds to local public health](https://apnews.com/33228796a8a66a50546c9e3ddacfef1b) (The Associated Press/KHN, contributor)
+
 [Protective gear for medical workers begins to run low again](https://apnews.com/481d933b0caa6f5fc61f466c86d4777b) (The Associated Press)
 
 [ICE and CBP Seize Billions In Assets Including Human Remains](https://splinternews.com/documents-ice-cbp-seize-billions-in-assets-including-1831181924) (Splinter News/Gizmodo Media)
