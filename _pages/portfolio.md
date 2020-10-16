@@ -4,6 +4,10 @@ filename: portfolio.md
 ---
 ***Even when the truth isn’t hopeful, the telling of it is. - Andrea Gibson***
 
+[Wildfire smoke in US exposes millions to hazardous pollution](https://apnews.com/article/virus-outbreak-wildfires-health-oregon-fires-138efdcef21f15751fe1809a7853903b) (The Associated Press)
+
+[Thousands of N.C. voters wait weeks for absentee ballots](https://apnews.com/article/virus-outbreak-north-carolina-elections-raleigh-voting-2020-4037cf93b6d7e12dfe3275778eefac8f) (The Associated Press)
+
 [Neighbors with hoses target fires as crews urge them to stop](https://apnews.com/1eb072d62d0de1d8e5a0949d5d8efbbc) (The Associated Press)
 
 [California wildfires some of largest in state history](https://apnews.com/f2b421d9c899fec0c07a35060f4b00ff) (The Associated Press, contributor)
