@@ -4,6 +4,10 @@ filename: portfolio.md
 ---
 ***Even when the truth isn’t hopeful, the telling of it is. - Andrea Gibson***
 
+[Tight supplies for virus gear cost US states billions](https://apnews.com/article/business-us-news-coronavirus-pandemic-massachusetts-cb8c50c43781d81957ef8a1e61869ca7) (The Associated Press)
+
+[Businesses left with bills as states halt virus supply deals](https://apnews.com/article/coronavirus-pandemic-texas-60712cfdb8f8d6ed1623d66be5157d1d) (The Associated Press)
+
 [Wildfire smoke in US exposes millions to hazardous pollution](https://apnews.com/article/virus-outbreak-wildfires-health-oregon-fires-138efdcef21f15751fe1809a7853903b) (The Associated Press)
 
 [Thousands of N.C. voters wait weeks for absentee ballots](https://apnews.com/article/virus-outbreak-north-carolina-elections-raleigh-voting-2020-4037cf93b6d7e12dfe3275778eefac8f) (The Associated Press)
