@@ -4,21 +4,33 @@ filename: portfolio.md
 ---
 ***Even when the truth isn’t hopeful, the telling of it is. - Andrea Gibson***
 
-[Tight supplies for virus gear cost US states billions](https://apnews.com/article/business-us-news-coronavirus-pandemic-massachusetts-cb8c50c43781d81957ef8a1e61869ca7) (The Associated Press)
+[Pandemic masks ongoing child abuse crisis as cases plummet](https://apnews.com/article/coronavirus-children-safety-welfare-checks-decline-62877b94ec68d47bfe285d4f9aa962e6) (AP)
 
-[Businesses left with bills as states halt virus supply deals](https://apnews.com/article/coronavirus-pandemic-texas-60712cfdb8f8d6ed1623d66be5157d1d) (The Associated Press)
+[AP analysis: COVID prolonged foster care stays for thousands](https://apnews.com/article/ct-state-wire-only-on-ap-coronavirus-pandemic-foster-care-education-0324d732ed8e788a45e580a7b14052fd) (AP)
 
-[Wildfire smoke in US exposes millions to hazardous pollution](https://apnews.com/article/virus-outbreak-wildfires-health-oregon-fires-138efdcef21f15751fe1809a7853903b) (The Associated Press)
+[US hunger crisis persists, especially for kids, older adults](https://apnews.com/article/us-hunger-crisis-kids-older-adults-fce1aba64d777f4a0f2bbf18b15040c6) (AP, contrib)
 
-[Thousands of N.C. voters wait weeks for absentee ballots](https://apnews.com/article/virus-outbreak-north-carolina-elections-raleigh-voting-2020-4037cf93b6d7e12dfe3275778eefac8f) (The Associated Press)
+[Jails emptied in the pandemic. Should they stay that way?](https://apnews.com/article/pandemics-health-coronavirus-pandemic-government-and-politics-5f212e27598df815243ef90a7aea4dc5) (AP, contrib)
 
-[Neighbors with hoses target fires as crews urge them to stop](https://apnews.com/1eb072d62d0de1d8e5a0949d5d8efbbc) (The Associated Press)
+[Floyd killing prompts some states to limit or ban chokeholds](https://apnews.com/article/george-floyd-business-police-reform-death-of-george-floyd-government-and-politics-d706e72d068ee4898878415565b4e49a) (AP)
 
-[California wildfires some of largest in state history](https://apnews.com/f2b421d9c899fec0c07a35060f4b00ff) (The Associated Press, contributor)
+[Some local GOP leaders fire up base with conspiracies, lies](https://apnews.com/article/local-gop-leaders-conspiracy-theories-0ef88e6f3b2b418ae07b214131d7f128) (AP, contrib)
 
-[Politics slows flow of US virus funds to local public health](https://apnews.com/33228796a8a66a50546c9e3ddacfef1b) (The Associated Press/KHN, contributor)
+[Tight supplies for virus gear cost US states billions](https://apnews.com/article/business-us-news-coronavirus-pandemic-massachusetts-cb8c50c43781d81957ef8a1e61869ca7) (AP)
 
-[Protective gear for medical workers begins to run low again](https://apnews.com/481d933b0caa6f5fc61f466c86d4777b) (The Associated Press)
+[Businesses left with bills as states halt virus supply deals](https://apnews.com/article/coronavirus-pandemic-texas-60712cfdb8f8d6ed1623d66be5157d1d) (AP)
+
+[Wildfire smoke in US exposes millions to hazardous pollution](https://apnews.com/article/virus-outbreak-wildfires-health-oregon-fires-138efdcef21f15751fe1809a7853903b) (AP)
+
+[Thousands of N.C. voters wait weeks for absentee ballots](https://apnews.com/article/virus-outbreak-north-carolina-elections-raleigh-voting-2020-4037cf93b6d7e12dfe3275778eefac8f) (AP)
+
+[Neighbors with hoses target fires as crews urge them to stop](https://apnews.com/1eb072d62d0de1d8e5a0949d5d8efbbc) (AP)
+
+[California wildfires some of largest in state history](https://apnews.com/f2b421d9c899fec0c07a35060f4b00ff) (AP, contrib)
+
+[Politics slows flow of US virus funds to local public health](https://apnews.com/33228796a8a66a50546c9e3ddacfef1b) (AP/KHN, contrib)
+
+[Protective gear for medical workers begins to run low again](https://apnews.com/481d933b0caa6f5fc61f466c86d4777b) (AP)
 
 [ICE and CBP Seize Billions In Assets Including Human Remains](https://splinternews.com/documents-ice-cbp-seize-billions-in-assets-including-1831181924) (Splinter News/Gizmodo Media)
 
