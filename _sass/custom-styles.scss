@@ -1,7 +1,6 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-
 $very-light-gray: #c5c8c6;
 $light-gray: #65737E;
 $gray: black;
@@ -10,7 +9,7 @@ $very-dark-gray: #1d1f21;
 
 $cyan: #8abeb7;
 $blue: #81a2be;
-$purple: #B48EAD;
+$purple: #800080;
 $red: #cc6666;
 $orange: #de935f;
 $light-orange: #EBCB8B;
@@ -27,7 +26,7 @@ a {
 
 .term {
   font-family: $font2;
-  
+
   table {
     white-space: nowrap;
     border: none;
@@ -35,24 +34,23 @@ a {
     margin: 0;
     background: $haze;
   }
-  
+
   td {
     padding: 0;
     padding-right: 1ch;
-    
+
     &.size {
       padding-left: 2ch;
       text-align: right;
     }
   }
-  
+
   tr {
     white-space: nowrap;
     border: none;
     background: #FFFFFF;
   }
-  
-  
+
   // grid for stuff like fake "ls" commands
   &-grid {
     display: grid;
@@ -67,7 +65,7 @@ a {
   &-cli {
     margin-bottom: 0;
   }
-  
+
   // grid for stuff like fake "ls" commands
   &-grid-single {
     display: grid;
@@ -78,25 +76,26 @@ a {
 
 a {
   font-family: $font2;
-  
+
   // fake "directories" - printed with a slash after
   &.dir {
     &:after {
       content: "/";
-      color: #fff;
+      opacity: 0.5;
+      color: $text-color;
       border-bottom: none;
-      
+
       &:hover {
         border-bottom: none;
       }
     }
   }
-  
+
   // fake "files"
   &.file {
     color: $green;
   }
-  
+
 }
 
 .prompt {
@@ -113,7 +112,7 @@ a {
       content: " :: ";
     }
   }
-  
+
   &.path {
     position: relative;
     &::after {
@@ -130,18 +129,18 @@ a {
 }
 
 .blinking-cursor {
-  color: #fff;
+  color: $text-color;
   animation: 1s blink step-end infinite;
 }
 
 @keyframes blink {
-  
+
   0% {
     color: transparent;
   }
-  
+
   50% {
-    color: #fff;
+    color: $text-color;
   }
 }
 
@@ -170,7 +169,7 @@ a {
       }
     }
   }
-  
+
 }
 
 .facebook {
@@ -267,14 +266,23 @@ a {
   }
 }
 
-.fixed .icon{
-  background: #fff;
+.fixed .icon {
+  // background: #fff;
+  background: rgba(0,0,0,0.05);
   width: 32px;
   height: 32px;
-  display: inline-grid;
-  place-items: center;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: center;
   border-radius: 3px;
 }
+
+.fixed .icon svg {
+  height: 1rem;
+  aspect-ratio: 1/1;
+ }
+
 
 .post {
   &-link {
