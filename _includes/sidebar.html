@@ -7,7 +7,7 @@
     {% for item in author.social %}
       <a href="{{ .item.link }}" target="_blank" class="icon">
           <svg class="socialmediaicon {{ item.name }}">
-            <use xlink:href="#{{ .item.name | lower }}"></use>
+            <use href="#{{ .item.name | lower }}"></use>
           </svg>
       </a>
     {% endfor %}
