@@ -14,8 +14,7 @@ I am a data reporter on the climate and environment team at The Associated Press
 * [When destitute small towns mean dangerous tap water](https://apnews.com/article/health-business-west-virginia-dementia-6770a6191b89b064bd77227e1b18639d)
 * [Arctic sea ice is disappearing and it’s harming polar bears](https://projects.apnews.com/features/2021/polar-bears-sea-ice/index.html)
 * [Wildfire smoke in US exposes millions to hazardous pollution](https://apnews.com/article/virus-outbreak-wildfires-health-oregon-fires-138efdcef21f15751fe1809a7853903b)
-* [https://apnews.com/article/arrests-george-floyd-chicago-only-on-ap-4cfdc13f0ef014db65d3ad59b2f31606](
-Tiny wrists in cuffs: How police use force against children)
+* [https://apnews.com/article/arrests-george-floyd-chicago-only-on-ap-4cfdc13f0ef014db65d3ad59b2f31606](Tiny wrists in cuffs: How police use force against children)
 * [AP analysis: COVID prolonged foster care stays for thousands](https://apnews.com/article/ct-state-wire-only-on-ap-coronavirus-pandemic-foster-care-education-0324d732ed8e788a45e580a7b14052fd)
 
 Previously, I was a data science fellow at the Human Rights Data Analysis Group, where I contributed analysis and modeling to a number of projects, including police misconduct data and analysis of a leaked dataset on children held in detention centers during the Trump administration. Before that, I did digital rights, civil liberties, and whistleblower protection research at Freedom of the Press Foundation. I studied environmental science and resource management at UC Berkeley.
