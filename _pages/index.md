@@ -9,7 +9,7 @@ filename: index.md
 
 ## Who?
 
-I am a data reporter on the climate and environment team at The Associated Press. I do data science and analysis work that supports our climate coverage, find stories in data, and work with reporters to communicate science and climate to the public. You can find a few selected stories below.
+I am a data reporter on the climate and environment team at The Associated Press. I do data science and analysis work that supports our climate coverage, find stories in data, build tools that amplify journalism, and work with reporters to communicate science and climate to the public. You can find a few selected stories below.
 * [Billions are being spent to turn the tide on the US West’s wildfires. It won’t be enough](https://apnews.com/article/wildfires-forest-thinning-community-risk-biden-9d77309cb9e7520069b3c575d850aadc)
 * [When destitute small towns mean dangerous tap water](https://apnews.com/article/health-business-west-virginia-dementia-6770a6191b89b064bd77227e1b18639d)
 * [Arctic sea ice is disappearing and it’s harming polar bears](https://projects.apnews.com/features/2021/polar-bears-sea-ice/index.html)
@@ -19,7 +19,7 @@ I am a data reporter on the climate and environment team at The Associated Press
 
 Previously, I was a data science fellow at the Human Rights Data Analysis Group, where I contributed analysis and modeling to a number of projects, including police misconduct data and analysis of a leaked dataset on children held in detention centers during the Trump administration. Before that, I did digital rights, civil liberties, and whistleblower protection research at Freedom of the Press Foundation. I studied environmental science and resource management at UC Berkeley.
 
-My interests include forests, cartography, science communication, and freedom. I'm also passionate about privacy, trail running, aerial arts, and wilderness first aid. I'm based in Seattle.
+My interests include science communication, forests, cartography, and freedom. I'm also passionate about privacy, trail running, aerial arts, and wilderness first aid. I'm based in San Francisco.
 
 To reach me securely about AP related matters, my phone number on the encrypted messaging app Signal is (206)572-2309. My direct messages on Twitter are open, or say hi via email at camille [at] sempervirens [dot] io. 
 
