@@ -35,9 +35,6 @@ nav:
 - name: code
   href: "https://github.com/ssempervirens"
   kind: dir
-- name: résumé.pdf
-  href: "/resume.pdf"
-  kind: file
 defaults:
 - scope:
     path: _posts
