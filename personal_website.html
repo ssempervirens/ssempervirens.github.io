@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background-color: #f0fdf4;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #1f2937;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            color: #059669;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .links a:hover {
+            color: #047857;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #1f2937;
+            border-bottom: 2px solid #d1fae5;
+            padding-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #4b5563;
+        }
+
+        .work-item {
+            margin-bottom: 24px;
+        }
+
+        .work-title {
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 4px;
+        }
+
+        .work-meta {
+            font-size: 0.9rem;
+            color: #6b7280;
+            margin-bottom: 8px;
+        }
+
+        .recommendations {
+            display: grid;
+            gap: 20px;
+        }
+
+        .rec-category {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #d1fae5;
+        }
+
+        .rec-category h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #059669;
+            margin-bottom: 12px;
+        }
+
+        .rec-list {
+            list-style: none;
+        }
+
+        .rec-list li {
+            margin-bottom: 8px;
+            color: #4b5563;
+        }
+
+        .rec-list li strong {
+            color: #374151;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 16px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .links {
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p class="subtitle">Analysis & Partnerships at [Company Name]</p>
+            <div class="links">
+                <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+                <a href="https://twitter.com/yourhandle">Twitter</a>
+                <a href="mailto:your.email@domain.com">Email</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Current Work</h2>
+            <p>I work at [Company Name], where we develop emissions data modeling tools that help companies understand and optimize their environmental impact. Our platform provides detailed analysis of marginalized emissions across supply chains and operations.</p>
+            <p>As part of the analysis and partnerships team, I focus on [specific aspects of your role - data analysis, client relationships, methodology development, etc.]. I work closely with [types of clients/partners] to implement data-driven emissions reduction strategies.</p>
+        </section>
+
+        <section>
+            <h2>Background</h2>
+            <div class="work-item">
+                <div class="work-title">Data Reporter</div>
+                <div class="work-meta">Associated Press • [Years]</div>
+                <p>Reported on [beat/topics], building expertise in data analysis, research methodology, and translating complex information into accessible insights. This foundation in rigorous analysis and clear communication directly informs my current work in climate data.</p>
+            </div>
+            <div class="work-item">
+                <div class="work-title">[Previous roles if relevant]</div>
+                <div class="work-meta">[Company/Organization] • [Years]</div>
+                <p>[Brief description if you want to include other relevant experience]</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interests & Recommendations</h2>
+            <div class="recommendations">
+                <div class="rec-category">
+                    <h3>Books</h3>
+                    <ul class="rec-list">
+                        <li><strong>Title by Author</strong> - Brief reason why you recommend it</li>
+                        <li><strong>Title by Author</strong> - What makes it valuable</li>
+                        <li><strong>Title by Author</strong> - Why it's worth reading</li>
+                    </ul>
+                </div>
+                
+                <div class="rec-category">
+                    <h3>Tools & Resources</h3>
+                    <ul class="rec-list">
+                        <li><strong>Tool/Resource Name</strong> - How you use it or why it's useful</li>
+                        <li><strong>Tool/Resource Name</strong> - What problem it solves</li>
+                        <li><strong>Tool/Resource Name</strong> - Why you recommend it</li>
+                    </ul>
+                </div>
+                
+                <div class="rec-category">
+                    <h3>Other</h3>
+                    <ul class="rec-list">
+                        <li><strong>Newsletter/Podcast/etc</strong> - Why you find it valuable</li>
+                        <li><strong>Conference/Event</strong> - What makes it worthwhile</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
